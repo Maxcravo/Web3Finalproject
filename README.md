@@ -20,4 +20,4 @@ Parte 4: tecnologias.
 
 Sugiro Java, mas você pode usar qualquer tecnologia que achar mais apropriada. Porém, a responsabilidade de lidar com as dúvidas será do grupo.
 
-Obs.: como nosso objetivo é consumir serviços web e fornecer um novo, você pode optar por usar outra mídia social (ex: Twitter, LindedIn, Reddit, gist, etc.) e outro serviço para substituir o ChatGPT (ex: Watson, etc.).
+Obs.: como nosso objetivo é consumir serviços web e fornecer um novo, você pode optar por usar outra mídia social (ex: Twitter, LinkedIn, Reddit, gist, etc.) e outro serviço para substituir o ChatGPT (ex: Watson, etc.).
