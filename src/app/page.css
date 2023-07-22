@@ -1,5 +1,4 @@
 :root {
-  --max-width: 1100px;
   --font-mono: ui-monospace, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono';
 
@@ -10,8 +9,8 @@
 html,
 body {
   margin: 0.5%;
-  max-width: 100vw;
   overflow-x: hidden;
+  
 }
 
 body {
@@ -24,8 +23,35 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+span{
+  margin-top: 5%;
+  font-weight: 600;
+}
 
+button{
+  box-shadow: 3px 3px #888888;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 12%;
+  height: 37px;
+  background-color: white;
+  color: #97D5B1;
+  border-style: solid;
+  border-color: #97D5B1;
+  font-weight: 600;
+}
 
+button:hover {
+  background-color: green;
+  color: white;
+}
 
+img{
+  margin-top: 4%;
+  width: 80%;
+}
 
-
+.description{ 
+  position: relative;
+  top: 90px;
+}

@@ -4,10 +4,8 @@ const { useState } = require("react");
 const {callAPI} = require("./ChatGpt");
 
 const octokit = new Octokit({
-  auth: "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"
+  auth: "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"
 })
-
-
 
 let DataGists = ""
 
