@@ -1,13 +1,13 @@
 const {Configuration, OpenAIApi } =  require("openai")
 const configAPI = new Configuration({
-  apiKey: "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"
+  apiKey: "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"
 });
 const openaiAPi = new OpenAIApi(configAPI);
 
  let resultPrompt = ""
 
  // Aqui falamos que vamos receber o params description que é nosso retorno do texto da API do GISTS
-async function callAPI(description) { //TODO O description que está chegando aqui está chegando vazio
+async function callAPI(description) { 
   console.log( `descriçào ${description}`);
   try {
     const completion =  await openaiAPi.createCompletion ({
@@ -25,6 +25,9 @@ async function callAPI(description) { //TODO O description que está chegando aq
     console.log(`erros callAPi = ${error}`);
   }
 }
+
+
+
 
 module.exports = {callAPI}
 

@@ -4,7 +4,7 @@ const { useState } = require("react");
 const {callAPI} = require("./ChatGpt");
 
 const octokit = new Octokit({
-  auth: "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"
+  auth: "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"
 })
 
 
@@ -30,14 +30,10 @@ async function getGists() {
         console.log(`res.DataGists = ${DataGists}`); 
         const storyObject = await callAPI(DataGists);
         console.log( `finally storyobject =${storyObject}`);
-        return storyObject.result
+        return storyObject.result; 
     })
-
-
 
   } catch (error) {
     console.log(`error octokit = ${error}`);
   }
 }
-
-getGists();
